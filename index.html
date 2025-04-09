@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group 8 Final Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Implementing AWS for Salary Analysis</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="analysis1.html">Analysis 1</a></li>
+                    <li><a href="analysis2.html">Analysis 2</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Scope of Project</h2>
+                <p>Objective: Compare salaries of job listings on if AWS is listed as a requirement in the description to see if knowing AWS pays more than jobs without AWS in the description.</p>
+                <ul>
+                    <li>Compared to all tech job listings in 2017 on Glassdoor.</li>
+                    <li>Compared to data science related job listings in 2017 on Glassdoor.</li>
+                </ul>
+                <p>Goal: Create a dashboard in Amazon QuickSight to visualize our findings.</p>
+            </section>
+            <section>
+                <h2>Data Source and Features</h2>
+                <p>Kaggle: <a href="https://www.kaggle.com/datasets/thedevastator/jobs-dataset-from-glassdoor/data" target="_blank">Data Source</a></p>
+                <p>Features of the Dataset:</p>
+                    <ul>
+                        <li><b>Job Title:</b> Type of job (String)</li>
+                        <li><b>Salary Estimate:</b> Estimated salary range offered for job (String)</li>
+                        <li><b>Job Description:</b> Description of job (String)</li>
+                        <li><b>Rating:</b> Rating of the company (Numeric)</li>
+                        <li><b>Company Name:</b> Name of company (String)</li>
+                        <li><b>Location:</b> Job city and state (String)</li>
+                        <li><b>Headquarters:</b> Headquarters of city and state (String)</li>
+                        <li><b>Size:</b> Size of company (String)</li>
+                        <li><b>Founded:</b> Year founded (Numeric)</li>
+                        <li><b>Type of Ownership:</b> Ownership of the company (i.e. government, private, etc.)(String)</li>
+                        <li><b>Industry:</b> Industry revenue (String)</li>
+                        <li><b>Sector:</b> Sector area (String)</li>
+                        <li><b>Revenue:</b> Industry revenue (String)</li>
+                        <li><b>Competitors:</b> Competitors of the company (String)</li>
+                        <li><b>hourly: </b> Jobs that pay hourly</li>
+                        <li><b>employer provided:</b> Listing submitted by employer (String)</li>
+                        <li><b>min_salary:</b> Minimum salary (in thousands)(Numeric)</li>
+                        <li><b>max_salary:</b> Maximum salary (in thousands)(Numeric)</li>
+                        <li><b>avg_salary:</b> Average salary (in thousands)(Numeric)</li>
+                        <li><b>company_txt:</b> Company name (String)</li>
+                        <li><b>job_state:</b> The state where the job is located (String)</li>
+                        <li><b>same_state:</b> A binary indicator of whether the job is the same state as the person looking at the job (String)</li>
+                        <li><b>age:</b> The age of the person looking at the job (Numeric)</li>
+                        <li><b>python_yn:</b> A binary indicator of whether the person looking at the job knows Python (String)</li>
+                        <li><b>R_yn:</b> A binary indicator of whether the person looking at the job knows R (String)</li>
+                        <li><b>spark:</b> A binary indicator of whether the person looking at the job knows Spark (String)</li>
+                        <li><b>aws:</b> A binary indicator of whether the person looking at the job knows AWS (String)</li>
+                        <li><b>excel</b> A binary indicator of whether the person looking at the job knows Excel (String)</li>
+                        <li><b>job_simp:</b> A simplified job title (String)</li>
+                        <li><b>senority:</b> The senority of the job (String)</li>
+                        <li><b>desc_len:</b> The length of the job description (Numeric)</li>
+                        <li><b>num_comp:</b> The number of competitors for the job (Numeric)</li>
+                    </ul>
+            </section>
+            <section>
+                <h2>Project Architecture</h2>
+                <img src="Images/Architecture.png" alt="Image of the Project Architecture" width="1000" height="800">
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 My Website</p>
+        </footer>
+    </body>
+</html>
