@@ -13,17 +13,20 @@ The grade of final project will be based on the following items:
 -The final project will have the following components:
 
 Project Definition where the students will define in detail:
-Scope of the project
-Features that will be implemented
-Data sources (from where you will get the data)
-Expected outcomes
+-Scope of the project
+-Features that will be implemented
+-Data sources (from where you will get the data)
+-Expected outcomes
+
+
 Project Architecture where the students will define:
-Logical architecture of the project indicating AWS cloud services that will be used and their roles in the architecture
-Data flow indicating how data will be ingested, clean up, processed, and released
-Project Implementation where students will demonstrate their solution by showing:
-Cloud services in action
-Inputs and outputs consumed and produced, respectively
-Project presentation where students will present their projects
+-Logical architecture of the project indicating AWS cloud services that will be used and their roles in the architecture
+-Data flow indicating how data will be ingested, clean up, processed, and released
+-Project Implementation where students will demonstrate their solution by showing:
+-Cloud services in action
+-Inputs and outputs consumed and produced, respectively
+-Project presentation where students will present their projects
+
 All the project artifacts, including presentations, must be uploaded into a GitHub account.
 Students must submit a video doing the presentation. Both video and ppt (presentation) must be submitted via blackboard and must also be available in the GitHub.
 
