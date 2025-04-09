@@ -1,0 +1,31 @@
+Final presentation Part B ( instruction )
+
+
+
+INSTRUCTIONS
+Students will work in groups in order to develop a data science project that leverages AWS Cloud Services.
+
+The grade of final project will be based on the following items:
+
+Presentation
+Demo
+Project architecture
+The final project will have the following components:
+
+Project Definition where the students will define in detail:
+Scope of the project
+Features that will be implemented
+Data sources (from where you will get the data)
+Expected outcomes
+Project Architecture where the students will define:
+Logical architecture of the project indicating AWS cloud services that will be used and their roles in the architecture
+Data flow indicating how data will be ingested, clean up, processed, and released
+Project Implementation where students will demonstrate their solution by showing:
+Cloud services in action
+Inputs and outputs consumed and produced, respectively
+Project presentation where students will present their projects
+All the project artifacts, including presentations, must be uploaded into a GitHub account.
+Students must submit a video doing the presentation. Both video and ppt (presentation) must be submitted via blackboard and must also be available in the GitHub.
+
+AT LEAST ONE GROUP member must present the project during the class.
+The presentations including the video with the demo cannot be longer than 15 min so all groups would have a chance to present.
