@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Website Name</title>
+        <title>Group 8 Final Project</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -13,19 +13,19 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="analysis1.html">Analysis 1</a></li>
-                <li><a href="analysis2.html">Analysis 2</a></li>
+                <li><a href="analysis1.html">Analysis: AWS</a></li>
+                <li><a href="analysis2.html">Analysis: Average Salary</a></li>
             </ul>
         </nav>
         <main>
-            <h1>Analysis 1</h1>
+            <h1>Amazon Web Services Analysis</h1>
             <div class="min-sal">
                 <div class="image-container">
                     <img src="Images/Min-Sal.png" alt="Boxplot of Min-Salary">
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ullam labore rem illo pariatur soluta libero placeat repellendus, quam dolores, quo possimus aperiam velit esse itaque vel commodi quod adipisci.
+                        This graph shows the relationship of minimum salary and whether or not AWS skills were included in the job listing. We see that when AWS skills are not included, it covers a wider range compared to that when AWS skills are included. However, the median of the box of when AWS skills are included is higher than that of the opposite.
                     </p>
                 </div>
             </div>
@@ -33,7 +33,7 @@
             <div class="avg-sal">
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque est aut nostrum nobis culpa, magnam natus dicta omnis iure hic inventore! Tempore mollitia aut animi quasi alias numquam quia expedita.
+                        Here we see the relationship of average salary and whether or not AWS skills are included in the job listing. We see that the false column has a wider range and overall higher quartiles and median than that of the true column.
                     </p>
                 </div>
                 <div class="image-container">
@@ -47,7 +47,51 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ullam labore rem illo pariatur soluta libero placeat repellendus, quam dolores, quo possimus aperiam velit esse itaque vel commodi quod adipisci.
+                        Next, we see the relationship of maximum salary and whether or not AWS skills are included in the job listing. Again we see that the false column covers a wider range compared to the true column. The true column's median is higher than that of the false column.
+                    </p>
+                </div>
+            </div>
+
+            <div class="avg-sal">
+                <div class="text-container">
+                    <p>
+                        In this graph, we see the top 50 cities in the United States with job listings and it compares whether or not AWS skills are included. From what we see, most job listings does not list AWS. Of the cities that does list AWS, they are: Washington DC, Waltham, MA, Vancouver WA, Southfield, MI, Seattle, WA, Scottsdale, AZ, San Jose, CA, San Francisco, CA, Rockville, MD, Riverton, UT, Philadelphia, PA, Palo Alto, CA, and Orange, CA. For these cities that lists AWS, most cities have job listings that need AWS skills, than not.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="Images/Avg-Sal_Location_AWS.png" alt="Bar Graph of Cities and Average Salary with AWS colored">
+                </div>
+            </div>
+
+            <div class="min-sal">
+                <div class="image-container">
+                    <img src="Images/Avg-Sal_Industry_AWS.png" alt="Bar Graph of Industries and Average Salary with AWS colored">
+                </div>
+                <div class="text-container">
+                    <p>
+                        In this graph we see the top 50 industries with job listings and it compares whether or not AWS skills are included. We see that the Insurance Carriers and Biotech & Pharmaceuticals industries are among the top of not needing AWS skills for their open positions. On the other hand we see the Telecommunication Services, Staffing and Outsourcing, IT Services, Enterprise Software and Networking, and Consulting industries are among those that need AWS skills for their open positions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="avg-sal">
+                <div class="text-container">
+                    <p>
+                       Next, in this graph we see the different business ownership types and their relationship of whether or not AWS skills are stated in the job listings. We see that Non-profit Organizations, Private Companies, Public Companies, and Subsidiaries or Business Segments, are among those that list AWS skills for their open positions.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="Images/Avg-Sal_Ownershp_AWS.png" alt="Bar Graph of Ownership and Average Salary with AWS colored">
+                </div>
+            </div>
+
+            <div class="min-sal">
+                <div class="image-container">
+                    <img src="Images/Avg-Sal_Seniority_AWS.png" alt="Bar Graph of Seniority and Average Salary with AWS colored">
+                </div>
+                <div class="text-container">
+                    <p>
+                        Finally, this graph shows us the relationship between Seniority level and whether or not AWS skills are listed for the job. We see that more senior level positions do ask for AWS skills, followed by positions that don't list seniority level. On the other hand, junior level positions has no listings that contain AWS requirements.
                     </p>
                 </div>
             </div>
